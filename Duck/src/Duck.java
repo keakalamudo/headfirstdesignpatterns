@@ -1,18 +1,16 @@
-package hfdp.ducks;
+package ducks;
 public abstract class Duck{
   FlyBehavior flyBehavior;
-  QuckBehavior quackBehavior;
+  QuackBehavior quackBehavior;
 
-  public Duck(){
-
-  }
+  public Duck(){}
   public abstract void display();
 
-  public void perfromFly(){
+  public void performFly(){
     flyBehavior.fly();
   }
 
-  public void perfromQuack(){
+  public void performQuack(){
     quackBehavior.quack();
   }
 

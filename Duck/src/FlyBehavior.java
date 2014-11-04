@@ -1,4 +1,4 @@
-package hfdp.ducks;
+package ducks;
 public interface FlyBehavior{
   public void fly();
 }
