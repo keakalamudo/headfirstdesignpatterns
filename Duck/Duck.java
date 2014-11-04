@@ -1,3 +1,4 @@
+package hfdp.ducks
 public abstract class Duck{
   FlyBehavior flyBehavior;
   QuckBehavior quackBehavior;
